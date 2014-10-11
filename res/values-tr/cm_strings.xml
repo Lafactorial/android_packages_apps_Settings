@@ -235,7 +235,7 @@
   <string name="heads_up_blacklist_title">Kara liste</string>
   <string name="heads_up_disabled_notice">Ekranınızda uygulamaların etkileşimli bildirimler göstermesi için, Bildirim Pencerelerini etkinleştirin.</string>
   <string name="title_tile_airplane">Uçak modu</string>
-  <string name="title_tile_battery">Pil istatistikleri</string>
+  <string name="title_tile_battery">Pil istatistik</string>
   <string name="title_tile_bluetooth">Bluetooth</string>
   <string name="title_tile_brightness">Parlaklık</string>
   <string name="title_tile_camera">Kamera</string>
@@ -243,7 +243,7 @@
   <string name="title_tile_heads_up">Bildirim Pencereleri</string>
   <string name="title_tile_sleep">Uyku moduna geç</string>
   <string name="title_tile_gps">Konum</string>
-  <string name="title_tile_torch">Fener</string>
+  <string name="title_tile_torch">El Feneri</string>
   <string name="title_tile_lockscreen">Kilit Ekranı</string>
   <string name="title_tile_lte">LTE</string>
   <string name="title_tile_mobiledata">Mobil veri</string>
@@ -260,7 +260,7 @@
   <string name="title_tile_nfc">NFC</string>
   <string name="title_tile_screen_timeout">Ekran zaman aşımı</string>
   <string name="title_tile_quiet_hours">Sessiz saatler</string>
-  <string name="title_tile_volume">Ses</string>
+  <string name="title_tile_volume">Ses seviyesi</string>
   <string name="title_tile_expanded_desktop">Genişletilmiş Masaüstü</string>
   <string name="title_tile_network_adb">Ağ üzerinden ADB</string>
   <string name="title_dynamic_tiles">Dinamik kareler</string>
@@ -291,6 +291,10 @@
   <string name="cm_sound_mode_vibrate">Titreş</string>
   <string name="cm_sound_mode_sound">Ses</string>
   <string name="cm_sound_mode_soundVibrate">Ses &amp; Titreşim</string>
+  <string name="pref_location_mode_title">Konum modları</string>
+  <string name="cm_location_mode_battery_saving">Pil tasarrufu</string>
+  <string name="cm_location_mode_device_only">Yalnızca cihaz</string>
+  <string name="cm_location_mode_high_accuracy">Yüksek doğruluk</string>
   <string name="tiles_reset_title">Sıfırla</string>
   <string name="tiles_reset_message">Varsayılan kareler ve düzen yüklensin mi?</string>
   <string name="auto_brightness_setup_title">Otomatik parlaklık</string>
