@@ -5,6 +5,10 @@
     <!-- About phone screen, DCM version -->
     <string name="dcm_version_title">DarkCyanogenMod sürümü</string>
 
+    <!-- DCM Translator strings -->
+    <string name="translator_title">DarkCyanogenMod Info</string>
+    <string name="translator_error">DarkCyanogenMod Info yüklenemiyor</string>
+
     <!-- General strings -->
     <string name="attention">Dikkat</string>
     <string name="misc_title">Diğer</string>
@@ -13,7 +17,8 @@
     <string name="reset">Sıfırla</string>
     <string name="reset_colors">Tüm renkleri sıfırla?</string>
     <string name="reset_default_message">Varsayılana sıfırla</string>
-    <string name="status_bar_style_title">Özelleştirmeler</string>
+    <string name="status_bar_battery_cat_title">Pil</string>
+    <string name="status_bar_general_title">Genel</string>
     <string name="ok">Tamam</string>
     <string name="enabled">Etkin</string>
     <string name="disabled">Devredışı</string>
@@ -177,7 +182,7 @@
     <string name="shortcut_image_not_valid">Seçilen uygulama geçerli bir simge ile geri dönmedi veya resim kırpmayı desteklemiyor. Farklı uygulama kullanın.</string>
    
     <!-- Status bar | Clock -->
-    <string name="status_bar_general_title">Genel</string>
+    <string name="status_bar_clock_custom">Saat ve tarih özelleştirmeleri</string>
     <string name="status_bar_clock">Saat ve tarih</string>
     <string name="status_bar_clock_title">Saat ve tarih stili</string>
     <string name="clock_title_enable">Hizalama</string>
@@ -257,7 +262,7 @@
 
     <string name="notifications_on_lockscreen">Kilit ekranı bildirimleri</string>
     <string name="notifications_on_lockscreen_summary">Bekleyen bildirimlerin kilit ekranında gösterilmesi için davranışlar arasında seçim yapın</string>
-    <string name="notifications_on_lockscreen_warning_summary">Her bir ekran kilidi bildirimleri servisi (GÖZETLEME veya/ve KİLİT EKRANI BİLDİRİMLERİ) diğerini devredışı bırakır.Tekrar kullanmak için işaretlemeyi unutmayın. </string>
+    <string name="notifications_on_lockscreen_warning_summary">Her bir ekran kilidi bildirimleri servisi (PEEK veya/ve KİLİT EKRANI BİLDİRİMLERİ) diğerini devredışı bırakır.Tekrar kullanmak için işaretlemeyi unutmayın. PEEK veya/ve KİLİT EKRANI BİLDİRİMLERİ  aşırı pil tüketimine sebep olabilir.</string>
 
     <!--Notification peek-->
     <string name="notification_peek_title">Peek</string>
@@ -1165,14 +1170,29 @@
     <string name="header_summary_animation">@null</string>
 
     <!-- Battery Bar -->
+    <string name="battery_bar_title">Pil çubuğu</string>
+    <string name="battery_bar_summary">Pil çubuğu ayarlarını değiştirin</string>
     <string name="battery_bar">Pil çubuğu konumu</string>
-    <string name="battery_bar_animate_summary">Şarj animasyonu garip kullanıcı deneyimine sebep olabilir. Kendi takdirinizle etkinleştirin.</string>
-    <string name="battery_bar_animate_title">Şarj animasyonu</string>
-    <string name="battery_bar_cat">Pil çubuğu stili</string>
     <string name="battery_bar_color">Pil çubuğu rengi</string>
+    <string name="battery_bar_cat">Pil çubuğu stili</string>
     <string name="battery_bar_style_title">Pil çubuğu hizalama</string>
     <string name="battery_bar_thickness_title">Pil çubuğu kalınlığı</string>
-    <string name="battery_bar_title">Pil çubuğu</string>
-    <string name="status_bar_battery_cat_title">Pil</string>
+    <string name="battery_bar_animate_title">Şarj animasyonu</string>
+    <string name="battery_bar_animate_summary">Şarj animasyonu garip kullanıcı deneyimine sebep olabilir. Kendi takdirinizle etkinleştirin.</string>
+    <string name="battery_bar_reset_message">Pil çubuğu rengini sıfırla?</string>
+
+    <!-- Switchable LockScreen Music Controller -->
+    <string name="lockscreen_music_controller_title">Medya Denetimi</string>
+    <string name="lockscreen_music_controller_summary">Müzik çalarken medya denetimi ve albüm bilgisini gösterir</string>
+
+    <!-- Quicksettings panel floating window -->
+    <string name="title_floating_window">Açılan pencere</string>
+    <string name="summary_floating_window">Hızlı ayar karelerini açılan pencerede göster</string>
+
+    <!-- Custom Carrier Label -->
+    <string name="notification_carrier_label_title">Servis sağlayıcı etiketi</string>
+    <string name="notification_custom_carrier_label_title">Özel servis sağlayıcı etiketi</string>
+    <string name="notification_custom_carrier_label_explain">Lütfen yeni bir servis sağlayıcı etiketi girin.Standart servis sağlayıcı etiketine geri dönmek için boş bırakın.</string>
+    <string name="notification_custom_carrier_label_notset">Özel etiket şu anda ayarlanmadı</string>
 
 </resources>
